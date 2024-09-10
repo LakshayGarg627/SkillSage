@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.main{
+    display: flex;
+    
+}
+.color-text{
+    color: red ;
+}
+.chat{
+    margin-top: 0;
+    padding-top: 0;
+    
+    background-color: blanchedalmond;
+    
+    width: 70%;
+    height: 100vh;
+}
+.desc p{
+    font-size: 4rem;
+    font-weight: 700;
+    height: 20vh;
+    width: 70%;
+    text-align: left;
+    margin-top: 10rem
+
+}
+.desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.desc1 p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 2rem;
+}
+.textarea{
+    width: 70%;
+    height: 20vh;
+    margin-top: -5rem;
+    margin-left: 9rem;
+   
+
+   
+}
+.textarea #text{
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    padding: 12px 20px;
+    resize: none;
+    background-color: #f8f8f8;
+    border: 2px solid #ccc;
+  border-radius: 4px;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    align-items: center;
+}
+.submit button{
+    height: 3rem;
+    font-size: 1.6rem;
+    width: 7rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: black;
+    color: white;
+    transition: all 0.2s ease-in-out;
+    
+}
+.submit button:hover{
+    cursor: pointer;
+    height: 3.5rem;
+    width: 8rem;
+    font-size: 1.8rem;
+}
+.video{
+    height: 100vh;
+    width: 40%;
+    overflow: hidden;
+}
+
+video{
+    position: sticky;
+    overflow: hidden;
+    object-fit: cover;
+    
+    height: 100vh;
+    width: 100%;
+}
+
+
+/* *{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.main{
+    display: flex;
+    
+}
+.color-text{
+    color: red ;
+}
+.chat{
+    margin-top: 0;
+    padding-top: 0;
+    
+    background-color: blanchedalmond;
+    width: 70%;
+    height: 100vh;
+}
+.desc p{
+    font-size: 4rem;
+    font-weight: 700;
+    height: 20vh;
+    width: 70%;
+    text-align: left;
+    margin-top: 10rem
+
+}
+.desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.desc1 p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 2rem;
+}
+.textarea{
+    width: 70%;
+    height: 20vh;
+    margin-top: -5rem;
+    margin-left: 9rem;
+   
+
+   
+}
+.textarea #text{
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    padding: 12px 20px;
+    resize: none;
+    background-color: #f8f8f8;
+    border: 2px solid #ccc;
+  border-radius: 4px;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    align-items: center;
+}
+.submit button{
+    height: 3rem;
+    font-size: 1.6rem;
+    width: 7rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: black;
+    color: white;
+    transition: all 0.2s ease-in-out;
+    
+}
+.submit button:hover{
+    cursor: pointer;
+    height: 3.5rem;
+    width: 8rem;
+    font-size: 1.8rem;
+}
+
+
+video{
+    position: sticky;
+    overflow: hidden;
+    object-fit: cover;
+    
+    height: 100vh;
+    width: 100%;
+} */
+
